@@ -1,0 +1,141 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4161052561625041928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5239416544762690378}
+  - component: {fileID: 4406462736012701347}
+  m_Layer: 6
+  m_Name: LaserController
+  m_TagString: WeaponController
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5239416544762690378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161052561625041928}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 874984034206911238}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4406462736012701347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4161052561625041928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee4e5f2be1ef5944962dd07fd50ba29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: Laser
+  weaponLevel: 1
+  maxLevel: 8
+  sfxType: 9
+  weaponType: 1
+  currentWeaponStats:
+    id: 
+    name: 
+    type: 
+    level: 0
+    damage: 0
+    cooldown: 0
+    radius: 0
+    range: 0
+    projectileSize: 0
+    projectileSpeed: 0
+    projectileCount: 0
+    explosionRadius: 0
+    explosionDamage: 0
+    dotDamage: 0
+    duration: 0
+    isPiercing: 0
+    canReturn: 0
+    description: 
+--- !u!1 &7596274741883465197
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 874984034206911238}
+  - component: {fileID: 7912416819900110460}
+  m_Layer: 0
+  m_Name: WeaponLaser
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &874984034206911238
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596274741883465197}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.05, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5239416544762690378}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7912416819900110460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7596274741883465197}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3bdc029a7640a142819438e1168179f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon:
+    id: 
+    name: 
+    type: 
+    level: 0
+    damage: 0
+    cooldown: 0
+    radius: 0
+    range: 0
+    projectileSize: 0
+    projectileSpeed: 0
+    projectileCount: 0
+    explosionRadius: 0
+    explosionDamage: 0
+    dotDamage: 0
+    duration: 0
+    isPiercing: 0
+    canReturn: 0
+    description: 
+  projectilePrefab: {fileID: 455433898682083204, guid: 679745c9e35dfdc4dac3ac387a889bee, type: 3}
+  firePoint: {fileID: 5239416544762690378}
+  hitEffectPrefab: {fileID: 104906590551963121, guid: ed57ceaef52174144ae78522738e5fa8, type: 3}
+  burstDelay: 0.2
+  baseWidth: 0.5
+  widthPerLevel: 0.2
+  maxWidth: 2

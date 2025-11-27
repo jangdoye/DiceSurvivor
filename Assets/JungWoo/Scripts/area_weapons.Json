@@ -1,0 +1,274 @@
+{
+    "KillingAura":[
+        {
+            "radius":1.0,
+            "dotDamage":5,
+            "duration":0.5
+        },        
+        {
+            "radius":1.3,
+            "dotDamage":7,
+            "duration":0.5
+        },        
+        {
+            "radius":1.5,
+            "dotDamage":8,
+            "duration":0.5
+        },        
+        {
+            "radius":1.7,
+            "dotDamage":9,
+            "duration":0.5
+        },        
+        {
+            "radius":2.0,
+            "dotDamage":10,
+            "duration":0.5
+        },        
+        {
+            "radius":2.0,
+            "dotDamage":12,
+            "duration":0.5
+        },        
+        {
+            "radius":2.5,
+            "dotDamage":13,
+            "duration":0.5
+        },        
+        {
+            "radius":3,
+            "dotDamage":15,
+            "duration":0.5
+        }
+    ],
+    "Icicle":[
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":4,
+            "projectileSpeed": 2,
+            "projectileCount": 1,
+            "explosionRadius": 1.0,
+            "explosionDamage": 10,
+            "dotDamage": 7,
+            "duration": 3.0
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3.5,
+            "projectileSpeed": 2,
+            "projectileCount": 1,
+            "explosionRadius": 1.2,
+            "explosionDamage": 15,
+            "dotDamage": 7,
+            "duration": 3.0
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3.5,
+            "projectileSpeed": 2,
+            "projectileCount": 1,
+            "explosionRadius": 1.2,
+            "explosionDamage": 15,
+            "dotDamage": 8,
+            "duration": 3.5
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3.5,
+            "projectileSpeed": 2,
+            "projectileCount": 2,
+            "explosionRadius": 1.5,
+            "explosionDamage": 20,
+            "dotDamage": 10,
+            "duration": 3.5
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3.5,
+            "projectileSpeed": 2,
+            "projectileCount": 2,
+            "explosionRadius": 1.5,
+            "explosionDamage": 20,
+            "dotDamage": 10,
+            "duration": 3.5
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3,
+            "projectileSpeed": 2,
+            "projectileCount": 2,
+            "explosionRadius": 1.5,
+            "explosionDamage": 25,
+            "dotDamage": 12,
+            "duration": 4.0
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3,
+            "projectileSpeed": 2,
+            "projectileCount": 2,
+            "explosionRadius": 1.7,
+            "explosionDamage": 30,
+            "dotDamage": 12,
+            "duration": 4.0
+        },
+        {
+            "damage": 0,
+            "radius":1.0,
+            "cooldown":3,
+            "projectileSpeed": 2,
+            "projectileCount": 3,
+            "explosionRadius": 2.0,
+            "explosionDamage": 40,
+            "dotDamage": 15,
+            "duration": 4.5
+        }
+    ],
+    "LightningStaff":[
+        {
+            "damage":15,
+            "radius":1.0,
+            "cooldown":4,
+            "projectileSpeed":0.3,
+            "projectileCount":1,
+            "explosionRadius":1.0,
+            "explosionDamage":10
+        },
+        {
+            "damage":25,
+            "radius":1.0,
+            "cooldown":4,
+            "projectileSpeed":0.3,
+            "projectileCount":1,
+            "explosionRadius":1.2,
+            "explosionDamage":15
+        },
+        {
+            "damage":25,
+            "radius":1.0,
+            "cooldown":3.7,
+            "projectileSpeed":0.3,
+            "projectileCount":2,
+            "explosionRadius":1.2,
+            "explosionDamage":15
+        },
+        {
+            "damage":35,
+            "radius":1.0,
+            "cooldown":3.7,
+            "projectileSpeed":0.3,
+            "projectileCount":2,
+            "explosionRadius":1.5,
+            "explosionDamage":20
+        },
+        {
+            "damage":40,
+            "radius":1.0,
+            "cooldown":3.5,
+            "projectileSpeed":0.3,
+            "projectileCount":2,
+            "explosionRadius":1.5,
+            "explosionDamage":20
+        },
+        {
+            "damage":40,
+            "radius":1.0,
+            "cooldown":3.2,
+            "projectileSpeed":0.3,
+            "projectileCount":3,
+            "explosionRadius":1.5,
+            "explosionDamage":20
+        },
+        {
+            "damage":50,
+            "radius":1.0,
+            "cooldown":3.2,
+            "projectileSpeed":0.3,
+            "projectileCount":3,
+            "explosionRadius":1.7,
+            "explosionDamage":25
+        },
+        {
+            "damage":60,
+            "radius":1.0,
+            "cooldown":3,
+            "projectileSpeed":0.3,
+            "projectileCount":3,
+            "explosionRadius":2.0,
+            "explosionDamage":25
+        }
+    ],
+    "Asteroid":[
+        {
+            "damage":10,
+            "radius":0.5,
+            "cooldown":8,
+            "projectileSpeed":1,
+            "projectileCount":2,
+            "duration":3.0
+        },
+        {
+            "damage":12,
+            "radius":0.5,
+            "cooldown":8,
+            "projectileSpeed":1,
+            "projectileCount":2,
+            "duration":3.0
+        },
+        {
+            "damage":12,
+            "radius":0.5,
+            "cooldown":7.7,
+            "projectileSpeed":1,
+            "projectileCount":3,
+            "duration":3.0
+        },
+        {
+            "damage":15,
+            "radius":0.5,
+            "cooldown":7.7,
+            "projectileSpeed":1,
+            "projectileCount":3,
+            "duration":4.0
+        },
+        {
+            "damage":15,
+            "radius":0.5,
+            "cooldown":7.5,
+            "projectileSpeed":1,
+            "projectileCount":3,
+            "duration":4.0
+        },
+        {
+            "damage":20,
+            "radius":0.5,
+            "cooldown":7.5,
+            "projectileSpeed":1,
+            "projectileCount":4,
+            "duration":4.5
+        },
+        {
+            "damage":23,
+            "radius":0.5,
+            "cooldown":7,
+            "projectileSpeed":1,
+            "projectileCount":4,
+            "duration":4.5
+        },
+        {
+            "damage":30,
+            "radius":0.5,
+            "cooldown":7,
+            "projectileSpeed":1.5,
+            "projectileCount":5,
+            "duration":5
+        }
+    ]
+}

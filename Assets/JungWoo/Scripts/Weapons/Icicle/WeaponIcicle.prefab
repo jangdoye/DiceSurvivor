@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1426830563205888218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559639761474393632}
+  - component: {fileID: 8286924928110177410}
+  - component: {fileID: 6836474326893749319}
+  m_Layer: 6
+  m_Name: WeaponIcicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1559639761474393632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426830563205888218}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8286924928110177410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426830563205888218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bca7ba3a450436e4ca1b6532377ff03b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponName: Icicle
+  currentLevel: 1
+  lostLevel: 1
+  minDistance: 4
+  maxDistance: 7
+  iciclePrefab: {fileID: 8790654104702029820, guid: 745f828d6dec2984296689dd60233243, type: 3}
+  projectileHeight: 8
+  fallSpeed: 16
+  explosionEffectPrefab: {fileID: 379871728378078122, guid: 36ea7fc2f23d1a747b3417f43092c9ae, type: 3}
+  dotEffectPrefab: {fileID: 8768721050885115320, guid: 3cd060ce52c732d4b8b32f7f8299ff8c, type: 3}
+--- !u!114 &6836474326893749319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426830563205888218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f427e0680267d418c601db2fc6cf04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  icicleWeapon: {fileID: 8286924928110177410}
+  currentLevel: 1
+  maxLevel: 8
+  debugMode: 1

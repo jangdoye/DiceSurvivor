@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9bef9d946b134d49b8ddaa0fee9d824, type: 3}
+  m_Name: TestEnemy1-7
+  m_EditorClassIdentifier: 
+  enemyId: 
+  enemyName: 456
+  body: {fileID: 4379503485202037059, guid: aab5a51470fa32c4dadb3e9606929e6a, type: 3}
+  type: 0
+  currHealth: 50
+  maxHealth: 50
+  damage: 10
+  speed: 2.8
+  armor: 1
+  exp: 4
+  gold: 4
+  expDropRate: 100
+  goldDropRate: 0.25
+  boxDropSwitch: 0
+  eliteBuff: 
+  extraReward: 
+  hpPerLevelMultiplier: 0
+  hpPerTimeMultiplier: 0
+  damagePerLevelMultiplier: 0
+  damagePerTimeMultiplier: 0

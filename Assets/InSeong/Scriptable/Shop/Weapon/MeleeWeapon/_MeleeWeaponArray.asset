@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7631d352148fc7f4ca9319b844ec463e, type: 3}
+  m_Name: _MeleeWeaponArray
+  m_EditorClassIdentifier: 
+  items:
+  - {fileID: 11400000, guid: 29bc91f5776448f4eb12d00e5000ee01, type: 2}
+  - {fileID: 11400000, guid: 5e4faadc24cdee649b1cb0516154f742, type: 2}
+  - {fileID: 11400000, guid: d8da2696b86a462488ffe93019d719c3, type: 2}
+  - {fileID: 11400000, guid: 83e9eaf01bd8e684cbea0a917b59b7c7, type: 2}
+  - {fileID: 11400000, guid: 485713e2d03af2a43a280eb2b814c625, type: 2}
+  - {fileID: 11400000, guid: 5875690359a2d384fbe754e8b614455e, type: 2}
